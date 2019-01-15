@@ -1,0 +1,69 @@
+2019-01-01 00:26:55.170 +01:00 [Information] Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager: User profile is available. Using 'C:\Users\stefa\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-01-01 00:26:56.083 +01:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request starting HTTP/1.1 GET http://localhost:6192/  
+2019-01-01 00:26:56.431 +01:00 [Information] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker: Route matched with {action = "Index", controller = "Home"}. Executing action TIGSajt.Controllers.HomeController.Index (TIGSajt)
+2019-01-01 00:26:56.560 +01:00 [Information] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker: Executing action method TIGSajt.Controllers.HomeController.Index (TIGSajt) - Validation state: Valid
+2019-01-01 00:26:56.567 +01:00 [Information] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker: Executed action method TIGSajt.Controllers.HomeController.Index (TIGSajt), returned result Microsoft.AspNetCore.Mvc.RedirectToActionResult in 1.6666ms.
+2019-01-01 00:26:56.585 +01:00 [Information] Microsoft.AspNetCore.Mvc.RedirectToActionResult: Executing RedirectResult, redirecting to /Statistics.
+2019-01-01 00:26:56.591 +01:00 [Information] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker: Executed action TIGSajt.Controllers.HomeController.Index (TIGSajt) in 154.9401ms
+2019-01-01 00:26:56.620 +01:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request finished in 536.3347ms 302 
+2019-01-01 00:26:56.627 +01:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request starting HTTP/1.1 GET http://localhost:6192/Statistics  
+2019-01-01 00:26:56.656 +01:00 [Information] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker: Route matched with {action = "Index", controller = "Statistics"}. Executing action TIGSajt.Controllers.StatisticsController.Index (TIGSajt)
+2019-01-01 00:26:56.695 +01:00 [Information] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker: Executing action method TIGSajt.Controllers.StatisticsController.Index (TIGSajt) - Validation state: Valid
+2019-01-01 00:26:56.702 +01:00 [Information] TIGSajt.Controllers.StatisticsController: info
+2019-01-01 00:26:56.707 +01:00 [Debug] TIGSajt.Controllers.StatisticsController: debug
+2019-01-01 00:26:56.710 +01:00 [Critical] TIGSajt.Controllers.StatisticsController: critical
+2019-01-01 00:26:56.713 +01:00 [Error] TIGSajt.Controllers.StatisticsController: error
+2019-01-01 00:27:36.114 +01:00 [Information] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker: Executed action method TIGSajt.Controllers.StatisticsController.Index (TIGSajt), returned result Microsoft.AspNetCore.Mvc.ViewResult in 39414.6614ms.
+2019-01-01 00:27:36.173 +01:00 [Information] Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor: Executing ViewResult, running view Index.
+2019-01-01 00:27:36.298 +01:00 [Information] Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor: Executed ViewResult - view Index executed in 159.3172ms.
+2019-01-01 00:27:36.316 +01:00 [Information] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker: Executed action TIGSajt.Controllers.StatisticsController.Index (TIGSajt) in 39650.0804ms
+2019-01-01 00:27:36.386 +01:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request finished in 39743.4721ms 200 text/html; charset=utf-8
+2019-01-01 00:29:00.730 +01:00 [Information] Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager: User profile is available. Using 'C:\Users\stefa\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-01-01 00:29:01.541 +01:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request starting HTTP/1.1 GET http://localhost:6192/  
+2019-01-01 00:29:01.853 +01:00 [Information] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker: Route matched with {action = "Index", controller = "Home"}. Executing action TIGSajt.Controllers.HomeController.Index (TIGSajt)
+2019-01-01 00:29:01.976 +01:00 [Information] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker: Executing action method TIGSajt.Controllers.HomeController.Index (TIGSajt) - Validation state: Valid
+2019-01-01 00:29:01.984 +01:00 [Information] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker: Executed action method TIGSajt.Controllers.HomeController.Index (TIGSajt), returned result Microsoft.AspNetCore.Mvc.RedirectToActionResult in 1.591ms.
+2019-01-01 00:29:02.009 +01:00 [Information] Microsoft.AspNetCore.Mvc.RedirectToActionResult: Executing RedirectResult, redirecting to /Statistics.
+2019-01-01 00:29:02.018 +01:00 [Information] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker: Executed action TIGSajt.Controllers.HomeController.Index (TIGSajt) in 156.5212ms
+2019-01-01 00:29:02.043 +01:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request finished in 502.7679ms 302 
+2019-01-01 00:29:02.071 +01:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request starting HTTP/1.1 GET http://localhost:6192/Statistics  
+2019-01-01 00:29:02.085 +01:00 [Information] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker: Route matched with {action = "Index", controller = "Statistics"}. Executing action TIGSajt.Controllers.StatisticsController.Index (TIGSajt)
+2019-01-01 00:29:02.114 +01:00 [Information] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker: Executing action method TIGSajt.Controllers.StatisticsController.Index (TIGSajt) - Validation state: Valid
+2019-01-01 00:29:02.127 +01:00 [Information] TIGSajt.Controllers.StatisticsController: info
+2019-01-01 00:29:02.131 +01:00 [Debug] TIGSajt.Controllers.StatisticsController: debug
+2019-01-01 00:29:02.133 +01:00 [Critical] TIGSajt.Controllers.StatisticsController: critical
+2019-01-01 00:29:02.136 +01:00 [Error] TIGSajt.Controllers.StatisticsController: error
+2019-01-01 00:29:13.056 +01:00 [Information] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker: Executed action TIGSajt.Controllers.StatisticsController.Index (TIGSajt) in 10968.7507ms
+2019-01-01 00:29:13.201 +01:00 [Error] Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware: An unhandled exception has occurred while executing the request.
+System.Data.SqlClient.SqlException (0x80131904): A connection was successfully established with the server, but then an error occurred during the pre-login handshake. (provider: TCP Provider, error: 0 - The specified network name is no longer available.) ---> System.ComponentModel.Win32Exception (64): The specified network name is no longer available
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location where exception was thrown ---
+   at TIGSajt.DB.TeorijaIgaraContext.GetStatistics() in D:\Posao\TigSajt\TIGSajt\TIGSajt\Models\TeorijaIgaraContext.cs:line 28
+   at TIGSajt.Controllers.StatisticsController.Index() in D:\Posao\TigSajt\TIGSajt\TIGSajt\Controllers\StatisticsController.cs:line 30
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ClientConnectionId:c77d7610-bb85-40d4-bd37-d2e90464226e
+Error Number:64,State:0,Class:20
+2019-01-01 00:29:13.352 +01:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request finished in 11278.3617ms 500 text/html; charset=utf-8

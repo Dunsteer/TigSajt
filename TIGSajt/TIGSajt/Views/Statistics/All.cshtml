@@ -1,0 +1,40 @@
+﻿@model List<StatisticsModel>
+@{ 
+    ViewData["Title"] = "All";
+}
+@*
+    For more information on enabling MVC for empty projects, visit http://go.microsoft.com/fwlink/?LinkID=397860
+
+*@
+
+@if (Model != null)
+{
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Home</th>
+                <th>Guest</th>
+                <th>HomePoints</th>
+                <th>GuestPoints</th>
+                <th>HomeScore</th>
+                <th>GuestScore</th>
+            </tr>
+
+        </thead>
+
+        <tbody>
+            @foreach (var s in Model)
+            {
+                <tr>
+                    <td>@s.Home</td>
+                    <td>@s.Guest</td>
+                    <td>@s.HomePoints</td>
+                    <td>@s.GuestPoints</td>
+                    <td>@s.HomeScore</td>
+                    <td>@s.GuestScore</td>
+                </tr>
+
+            }
+        </tbody>
+    </table>
+}

@@ -1,0 +1,108 @@
+﻿@model GetForUserModel
+@{
+    ViewData["Title"] = "Get for user";
+}
+@*
+    For more information on enabling MVC for empty projects, visit http://go.microsoft.com/fwlink/?LinkID=397860
+*@
+
+<div id="userContainer">
+    <h2></h2>
+    <canvas id="myChart" width="400" height="200"></canvas>
+</div>
+@section Scripts{
+    <script>
+        const ctx = document.getElementById("myChart").getContext('2d');
+        const studentContainer = document.querySelector("#userContainer h2");
+
+        $.ajax({
+            type: "GET",
+            url: '@Url.Action("GetForUserAjax", "Statistics")',
+            contentType: "application/json; charset=utf-8",
+            dataType: "json",
+            data: {
+                userId: '@Model.UserId'
+            }, success: function (data) {
+                if (data.length > 0) {
+                    const opacity = 0.3;
+                    const add = 0;
+                    const currentStudent = data[0].homeStudentName;
+                    studentContainer.innerHTML = currentStudent;
+
+                    const labels = [];
+                    let dataWin = [];
+                    let dataLost = [];
+                    let dataDraw = [];
+
+                    data.forEach(x => {
+                        labels.push(x.guestStudentName)
+                        if (x.win == 0)
+                            x.win += add;
+                        if (x.draw == 0)
+                            x.draw += add;
+                        if (x.lost == 0)
+                            x.lost += add;
+                        dataWin.push(x.win);
+                        dataDraw.push(x.draw);
+                        dataLost.push(x.lost);
+                    });
+
+                    const myChart = new Chart(ctx, {
+                        type: 'horizontalBar',
+                        data: {
+                            labels: labels,
+                            datasets: [
+                            {
+                                    label: 'Loses',
+                                    data: dataLost,
+                                    backgroundColor:
+                                        `rgba(255, 99, 132, ${opacity})`
+                                    ,
+                                    borderColor:
+                                        'rgba(255,99,132,1)'
+                                    ,
+                                    borderWidth: 1
+                            },
+                            {
+                                label: 'Draws',
+                                data: dataDraw,
+                                backgroundColor:
+                                    `rgba(54, 162, 235, ${opacity})`
+                                ,
+                                borderColor:
+                                    'rgba(54, 162, 235, 1)'
+                                ,
+                                borderWidth: 1
+                            },
+                            {
+                                    label: 'wins',
+                                    data: dataWin,
+                                    backgroundColor:
+                                        `rgba(112, 214, 102, ${opacity})`
+                                    ,
+                                    borderColor:
+                                        'rgba(112, 214, 102, 1)'
+                                    ,
+                                    borderWidth: 1
+                                }
+                            ]
+                        },
+                        options: {
+                            scales: {
+                                xAxes: [{
+                                    stacked: true
+                                }],
+                                yAxes: [{
+                                    stacked:true
+                                }]
+                            },
+                            responsive: true
+                        }
+                    });
+                }
+                console.log(data);
+
+            }
+        });
+    </script>
+}

@@ -1,0 +1,32 @@
+2019-01-01 00:31:28.955 +01:00 [Information] Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager: User profile is available. Using 'C:\Users\stefa\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-01-01 00:31:29.738 +01:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request starting HTTP/1.1 GET http://localhost:6192/  
+2019-01-01 00:31:30.055 +01:00 [Information] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker: Route matched with {action = "Index", controller = "Home"}. Executing action TIGSajt.Controllers.HomeController.Index (TIGSajt)
+2019-01-01 00:31:30.175 +01:00 [Information] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker: Executing action method TIGSajt.Controllers.HomeController.Index (TIGSajt) - Validation state: Valid
+2019-01-01 00:31:30.185 +01:00 [Information] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker: Executed action method TIGSajt.Controllers.HomeController.Index (TIGSajt), returned result Microsoft.AspNetCore.Mvc.RedirectToActionResult in 1.8402ms.
+2019-01-01 00:31:30.206 +01:00 [Information] Microsoft.AspNetCore.Mvc.RedirectToActionResult: Executing RedirectResult, redirecting to /Statistics.
+2019-01-01 00:31:30.213 +01:00 [Information] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker: Executed action TIGSajt.Controllers.HomeController.Index (TIGSajt) in 152.788ms
+2019-01-01 00:31:30.245 +01:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request finished in 500.3951ms 302 
+2019-01-01 00:31:30.253 +01:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request starting HTTP/1.1 GET http://localhost:6192/Statistics  
+2019-01-01 00:31:30.271 +01:00 [Information] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker: Route matched with {action = "Index", controller = "Statistics"}. Executing action TIGSajt.Controllers.StatisticsController.Index (TIGSajt)
+2019-01-01 00:31:30.310 +01:00 [Information] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker: Executing action method TIGSajt.Controllers.StatisticsController.Index (TIGSajt) - Validation state: Valid
+2019-01-01 00:31:30.319 +01:00 [Information] TIGSajt.Controllers.StatisticsController: info
+2019-01-01 00:31:30.322 +01:00 [Debug] TIGSajt.Controllers.StatisticsController: debug
+2019-01-01 00:31:30.327 +01:00 [Critical] TIGSajt.Controllers.StatisticsController: critical
+2019-01-01 00:31:30.330 +01:00 [Error] TIGSajt.Controllers.StatisticsController: error
+2019-01-01 00:31:31.572 +01:00 [Information] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker: Executed action method TIGSajt.Controllers.StatisticsController.Index (TIGSajt), returned result Microsoft.AspNetCore.Mvc.ViewResult in 1258.655ms.
+2019-01-01 00:31:31.633 +01:00 [Information] Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor: Executing ViewResult, running view Index.
+2019-01-01 00:31:31.785 +01:00 [Information] Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor: Executed ViewResult - view Index executed in 191.4294ms.
+2019-01-01 00:31:31.799 +01:00 [Information] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker: Executed action TIGSajt.Controllers.StatisticsController.Index (TIGSajt) in 1521.9212ms
+2019-01-01 00:31:31.879 +01:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request finished in 1587.9138ms 200 text/html; charset=utf-8
+2019-01-01 00:32:07.819 +01:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request starting HTTP/1.1 GET http://localhost:6192/Statistics  
+2019-01-01 00:32:07.823 +01:00 [Information] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker: Route matched with {action = "Index", controller = "Statistics"}. Executing action TIGSajt.Controllers.StatisticsController.Index (TIGSajt)
+2019-01-01 00:32:07.854 +01:00 [Information] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker: Executing action method TIGSajt.Controllers.StatisticsController.Index (TIGSajt) - Validation state: Valid
+2019-01-01 00:32:07.858 +01:00 [Information] TIGSajt.Controllers.StatisticsController: info
+2019-01-01 00:32:07.861 +01:00 [Debug] TIGSajt.Controllers.StatisticsController: debug
+2019-01-01 00:32:07.864 +01:00 [Critical] TIGSajt.Controllers.StatisticsController: critical
+2019-01-01 00:32:07.867 +01:00 [Error] TIGSajt.Controllers.StatisticsController: error
+2019-01-01 00:32:08.012 +01:00 [Information] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker: Executed action method TIGSajt.Controllers.StatisticsController.Index (TIGSajt), returned result Microsoft.AspNetCore.Mvc.ViewResult in 154.628ms.
+2019-01-01 00:32:08.015 +01:00 [Information] Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor: Executing ViewResult, running view Index.
+2019-01-01 00:32:08.058 +01:00 [Information] Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor: Executed ViewResult - view Index executed in 15.4828ms.
+2019-01-01 00:32:08.065 +01:00 [Information] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker: Executed action TIGSajt.Controllers.StatisticsController.Index (TIGSajt) in 235.5248ms
+2019-01-01 00:32:08.069 +01:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request finished in 249.5899ms 200 text/html; charset=utf-8

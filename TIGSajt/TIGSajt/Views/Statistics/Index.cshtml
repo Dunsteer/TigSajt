@@ -1,0 +1,38 @@
+﻿@model List<StudentModel>
+@{
+    ViewData["Title"] = "Statistics";
+}
+@*
+    For more information on enabling MVC for empty projects, visit http://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@if (Model != null)
+{
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Student</th>
+                <th>Poeni</th>
+                <th>Win</th>
+                <th>Draw</th>
+                <th>Lost</th>
+                <th>Operations</th>
+            </tr>
+
+        </thead>
+
+        <tbody>
+            @foreach (var s in Model)
+            {
+                <tr>
+                    <td>@s.Student</td>
+                    <td>@s.Points</td>
+                    <td>@s.Win</td>
+                    <td>@s.Draw</td>
+                    <td>@s.Lost</td>
+                    <td><a class="btn btn-primary" asp-action="GetForUser" asp-route-userId="@s.StudentId">More</a></td>
+                </tr>
+
+            }
+        </tbody>
+    </table>
+}
